@@ -14,7 +14,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-	
+
 	<build>
 		<plugins>
 			<!-- Compiler plug-in -->
@@ -30,7 +30,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.18.1</version>
+				<version>3.0.0-M4</version>
 				<configuration>
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
@@ -42,6 +42,22 @@
 	</build>
 
 	<dependencies>
+
+		<dependency>
+			<groupId>com.relevantcodes</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>2.41.2</version>
+		</dependency>
+
+		<!--
+		https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>3.0.0-alpha1</version>
+		</dependency>
+
+
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -58,7 +74,8 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
+		<!--
+		https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
 		<dependency>
 			<groupId>io.rest-assured</groupId>
 			<artifactId>json-schema-validator</artifactId>
@@ -81,5 +98,15 @@
 			<version>20230618</version>
 		</dependency>
 
+		<dependency>
+			<groupId>test</groupId>
+			<artifactId>test</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>AppachePOiAndXLS</groupId>
+			<artifactId>AppachePOiAndXLS</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 </project>
