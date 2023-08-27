@@ -1,0 +1,6 @@
+2023-08-28 01:01:57  [TC2_Post_Request_with_random_id] (main:) Status Code is matching with the expected status code
+2023-08-28 01:01:58  [TC3_Get_All_Request] (main:) Status Code is matching with the expected status code
+2023-08-28 01:01:59  [TC4_Get_All_Req_Extract_IdValue] (main:) Status Code is matching with the expected status code
+2023-08-28 01:01:59  [TC_5_Get_Particular_By_IdValue] (main:) Status Code is matching with the expected status code
+2023-08-28 01:02:00  [TC6_PutRequest] (main:) Status Code is matching with the expected status code
+2023-08-28 01:02:00  [TC7_DeleteRequest] (main:) Status Code is matching with the expected status code
